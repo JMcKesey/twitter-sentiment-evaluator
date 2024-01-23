@@ -5,20 +5,28 @@ html, body {
 }
 
 .text-container {
+    position: relative;
     z-index: 100;
-    width: 100vw;
-    height: 100vh;
     display: flex;
-    position: absolute;
-    top: 0;
-    left: 0;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 96px;
+    height: 100vh;
+}
+
+.container-1 h1 {
+    font-size: 64px;
     color: white;
-    opacity: 0.8;
-    user-select: nonce;
-    text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+
+.container-2 .link_input {
+    padding: 10px;
+    border: 0;
+    border-radius: 10px;
+    font-family: 'Kanit';
+    box-shadow: inset 10px;
+    width: 720px;
 }
 
 :root {
