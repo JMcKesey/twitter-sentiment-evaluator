@@ -29,6 +29,13 @@ html, body {
     width: 720px;
 }
 
+.container-3 {
+    color: red;
+    font-size: 12px;
+    padding: 5px;
+    display: none;
+}
+
 :root {
     --color-bg1: rgb(29, 161, 242);
     --color-bg2: rgb(101, 119, 134);
