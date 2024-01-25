@@ -9,15 +9,13 @@ function getUrl(e) {
 
         // if link doesn't fit the RegExp throw an error
         if(!linkRegExp.test(url)) {
-            showErrorMessage();
+            showErrorMessage(); // displaying to user
             throw {name : "RegExpError", message : "this link doesn't fit the given template"}
-        } 
-
-        return url;
+        }
     }
 }
 
 function showErrorMessage() {
     var errorDiv = document.getElementById("errorDiv");
     errorDiv.style.display = "block"; // Display the error message
-}
+};
